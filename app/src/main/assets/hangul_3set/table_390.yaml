@@ -107,7 +107,8 @@ map:
     shift: '_ㅀ'
   KEYCODE_B:
     base: '_ㅜ_'
-    shift: '!'
+#    shift: '!'
+    shift: '-'
   KEYCODE_N:
     base: 'ㅅ_'
     shift: '0'
@@ -141,3 +142,7 @@ map:
   KEYCODE_SEBEOL_390_11:
     base: '_ㅗ_'
     shift: '3'
+#    soft_mobile_390.yalm 반모음 ㅜ 자리 대체하기 위해
+  KEYCODE_SEBEOL_390_12:
+    base: '?'
+    shift: '('

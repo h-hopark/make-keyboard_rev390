@@ -1,0 +1,16 @@
+1. 다음 파일 2개 추가됨.
+	app/src/main/assets/common/row_mobile_number_390.yaml
+	app/src/main/assets/common/row_tablet_bottom_390.yaml
+	app/src/main/assets/common/row_mobile_bottom_390.yaml
+
+2. 다음 파일 6개 수정됨.
+	app/src/main/assets/common/row_tablet_bottom_with_period_comma.yaml : 쉼표를 spacebar 왼쪽으로 옮김.
+
+	app/src/main/assets/hangul_3set/table_390.yaml : 		KEYCODE_SEBEOL_390_12 추가.
+	app/src/main/assets/hangul_3set/soft_tablet_390.yaml : 		name: "common/row_tablet_bottom_390.yaml"으로 변경.
+	app/src/main/assets/hangul_3set/soft_mobile_390.yaml : 		Lshift 아래로 내림, 오른쪽ㅗ/ㅜ 삭제, shift B의 !를 -으로 변경.
+
+	app/src/main/assets/symbol/table_symbol_b.yaml : 		기호B 시프트에 네모2, 별표2, 하트2 대신 『』 ⟨ ⟩ ⟪ ⟫ 할당. 
+
+	app/src/main/java/ee/oyatl/ime/make/preset/table/CustomKeycode.kt : 		KEYCODE_SEBEOL_390_12 추가.
+=== 2024-08-22 목요일 아침에 변경 내용 끝 ===

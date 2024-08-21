@@ -1,0 +1,32 @@
+keys:
+  - !<key>
+    code: "KEYCODE_SYM"
+    iconType: "Option"
+    width: 1.5
+    type: "Modifier"
+  - !<key>
+    code: "KEYCODE_SHIFT_LEFT"
+    iconType: "Shift"
+    type: "Modifier"
+    width: 1.0
+  - !<key>
+    code: "KEYCODE_LANGUAGE_SWITCH"
+    iconType: "Language"
+    type: "ModifierAlt"
+    width: 1.5
+  - !<key>
+    code: "KEYCODE_SPACE"
+    label: ""
+    width: 3.5
+    type: "Space"
+  - !<key>
+    #    code: "KEYCODE_PERIOD"
+    code: "KEYCODE_SOFT_PERIOD"
+    #    code: "KEYCOD_PERIOD_COMMA"
+    output: "."
+    type: "AlphanumericAlt"
+  - !<key>
+    code: "KEYCODE_ENTER"
+    iconType: "Return"
+    width: 1.5
+    type: "Action"
